@@ -1,7 +1,21 @@
+html {
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  color: black;
+  font-weight: 700;
+}
+
 .form,
 .greetings {
   display: none;
 }
+
 .showing {
   display: block;
 }
@@ -15,6 +29,13 @@
   }
 }
 
+form > input {
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
 .bgImage {
   position: absolute;
   top: 0;
@@ -23,4 +44,18 @@
   height: 100%;
   z-index: -1;
   animation: fadeIn 0.5s linear;
+}
+
+.js-clock {
+  font-size: 36px;
+}
+.js-weather {
+  font-size: 25px;
+}
+.js-toDoList {
+  font-size: 20px;
+}
+
+.js-greetings {
+  font-size: 30px;
 }

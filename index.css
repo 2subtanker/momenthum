@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
   color: black;
   font-weight: 700;
 }
@@ -53,7 +53,7 @@ form > input {
   font-size: 25px;
 }
 .js-toDoList {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .js-greetings {
